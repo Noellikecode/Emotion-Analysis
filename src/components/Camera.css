@@ -1,21 +1,9 @@
-.camera {
-  width: 100%;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-p.scroll_down
-{
-	font-size: 20px;
-    color: white;
-}
+
+
 .camera__wrapper {
   position: relative;
-  width: 80%;
-  max-width: 680px;
-  margin: 0 1rem 1rem;
+  width: 40%;
+  height: 50%;
 }
 
 .camera__wrapper video {
@@ -46,14 +34,7 @@ p.scroll_down
   display: none;
 }
 
-.results__container {
-  background-color: #fff;
-  width: 100%;
-  padding-top: 1rem;
-  min-height: 250px;
-  display: flex;
-  justify-content: center;
-}
+
 
 .results__wrapper {
   padding: 1rem 0 0 1rem;
@@ -61,7 +42,7 @@ p.scroll_down
 
 @media only screen and (min-width: 768px) {
   .camera__wrapper {
-    width: 100%;
+    width: 80%;
     margin: 0 1rem 1rem;
   }
 

@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from "react";
 import classnames from "classnames";
-import SelectedImage from "../SelectedImage/SelectedImage";
+import SelectedImage from "./SelectedImage";
 
-import "./Gallery.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Gallery = props => {

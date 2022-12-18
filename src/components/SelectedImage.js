@@ -1,8 +1,7 @@
 import React, {useEffect, useRef, useState} from "react";
-import {detectFaces, drawResults} from "../../helpers/faceApi";
+import {detectFaces, drawResults} from "../helpers/faceApi";
 
-import "./SelectedImage.css";
-import Results from "../Results/Results";
+import Results from "./Results";
 
 const SelectedImage = ({img}) => {
   const selected = useRef();
